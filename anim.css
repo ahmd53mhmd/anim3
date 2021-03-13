@@ -1,0 +1,122 @@
+body{
+	margin: 0px; padding: 0px;
+	background-color: #806bf3;
+}
+
+*{
+	margin: 0;
+}
+
+
+#circle1{
+	width: 350px; height: 350px;
+	background-color: #fff;
+}
+#circle2{
+	width: 280px; height: 280px;
+	background-color: #806bf3;
+}
+#circle3{
+	width: 190px; height: 190px;
+	background-color: #806bf3; opacity: 0.2;
+}
+#circle4{
+	width: 130px; height: 130px;
+	background-color: #806bf3;
+}
+.circle{
+	border-radius: 50%;
+	position: absolute; top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+#rotate1{
+	width: 440px; height: 40px;
+	background-color: #fff;
+	box-shadow: 2px 2px 10px 0 grey;
+	transform: translate(-50%, -50%);
+	animation: rotate1 3s linear infinite;
+}
+#rotate2{
+	width: 440px; height: 40px;
+	background-color: #fff;
+	box-shadow: 2px 2px 10px 0 grey;
+	transform: translate(-50%, -50%) rotate(36deg);
+	animation: rotate2 3s linear infinite;
+}
+#rotate3{
+	width: 440px; height: 40px;
+	background-color: #fff;
+	box-shadow: 2px 2px 10px 0 grey;
+	transform: translate(-50%, -50%) rotate(72deg);
+	animation: rotate3 3s linear infinite;
+}
+#rotate4{
+	width: 440px; height: 40px;
+	background-color: #fff;
+	box-shadow: 2px 2px 10px 0 grey;
+	transform: translate(-50%, -50%) rotate(108deg);
+	animation: rotate4 3s linear infinite;
+}
+#rotate5{
+	width: 440px; height: 40px;
+	background-color: #fff;
+	box-shadow: 2px 2px 10px 0 grey;
+	transform: translate(-50%, -50%) rotate(144deg);
+	animation: rotate5 3s linear infinite;
+}
+.rotated{
+	border-radius: 30px;
+	position: absolute; top: 50%; left: 50%;
+}
+
+
+
+
+
+@keyframes rotate1{
+	0%{
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	100%{
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+@keyframes rotate2{
+	0%{
+		transform: translate(-50%, -50%) rotate(36deg);
+	}
+	100%{
+		transform: translate(-50%, -50%) rotate(396deg);
+	}
+}
+
+@keyframes rotate3{
+	0%{
+		transform: translate(-50%, -50%) rotate(72deg);
+	}
+	100%{
+		transform: translate(-50%, -50%) rotate(432deg);
+	}
+}
+
+@keyframes rotate4{
+	0%{
+		transform: translate(-50%, -50%) rotate(108deg);
+	}
+	100%{
+		transform: translate(-50%, -50%) rotate(468deg);
+	}
+}
+
+@keyframes rotate5{
+	0%{
+		transform: translate(-50%, -50%) rotate(144deg);
+	}
+	100%{
+		transform: translate(-50%, -50%) rotate(504deg);
+	}
+}
